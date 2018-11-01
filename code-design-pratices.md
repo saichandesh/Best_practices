@@ -40,7 +40,7 @@ As seen above, when unit testing the `UsageLogger` it's easy to mock `Logger` as
 But to test `Logger` it's hard to mock `Airbrake`. The way we end up will be mock patching.<br/>
 If we think we don't need to use unit test, we can go ahead with `static class`, if not go with `Singleton`
 
-### Usage of Static classes
+### Usage of Singleton classes
 ```
 # log.ts
 
